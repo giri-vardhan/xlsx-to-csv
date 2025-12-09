@@ -31,7 +31,7 @@ This project provides a solution to convert `.xlsx` files to `.csv` format using
   ```bash
   ls output/
 
-   You should see something like this sample.xlsx
+   You should see something like this result.csv
 
 6. Run tests
   ```bash
