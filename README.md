@@ -12,24 +12,27 @@ This project provides a solution to convert `.xlsx` files to `.csv` format using
 1. **Build the Docker image**  
    ```bash
    docker-compose build
-
-2. Check the input file
+2. # Start container
+   ```bash
+   docker-compose run task bash
+   
+3. Check the input file
    ```bash
     ls input/
 
   You should see something like this 
   sample.xlsx
 
-3. Run the solution script
+4. Run the solution script
    ```bash
     bash solution.sh
    
-4. Verify the output
+5. Verify the output
   ```bash
   ls output/
 
-You should see something like this sample.xlsx
+   You should see something like this sample.xlsx
 
-5. Run tests
+6. Run tests
   ```bash
   ./run-tests.sh
