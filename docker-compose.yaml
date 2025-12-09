@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  task:
+    build: .
+    container_name: xlsx_to_csv
+    tty: true
+    stdin_open: true

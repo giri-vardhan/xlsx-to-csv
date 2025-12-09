@@ -1,0 +1,16 @@
+version: "0.1.1"
+name: "xlsx-to-csv-conversion"
+description: |
+  Convert the XLSX file located at:
+
+      /workspace/input/sample.xlsx
+
+  into a CSV file and save it as:
+
+      /workspace/output/result.csv
+
+  Requirements:
+  - Use Python or any available command-line tools.
+  - The resulting CSV must have identical rows and columns as the XLSX file.
+  - The output file must be named result.csv.
+  - Do not overwrite the original XLSX.
